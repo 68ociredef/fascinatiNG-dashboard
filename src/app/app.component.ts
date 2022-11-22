@@ -1,7 +1,6 @@
 import { registerLocaleData } from '@angular/common';
 import { Component } from '@angular/core';
 import it from '@angular/common/locales/it';
-import { BzLocaleService } from 'fascinating';
 registerLocaleData(it);
 
 

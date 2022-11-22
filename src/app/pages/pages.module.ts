@@ -6,7 +6,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 import {  HomeComponent} from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { RouterModule } from '@angular/router';
-import { BzCardModule, BzIconModule } from 'fascinating'
+import { BzButtonModule, BzCardModule, BzIconModule, BzLinkModule } from 'fascinating'
 
 
 
@@ -18,7 +18,9 @@ import { BzCardModule, BzIconModule } from 'fascinating'
     PagesRoutingModule,
     RouterModule,
     BzCardModule,
-    BzIconModule
+    BzIconModule,
+    BzLinkModule,
+    BzButtonModule
   ],
   exports:[PagesComponent]
 })

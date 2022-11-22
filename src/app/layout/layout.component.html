@@ -1,22 +1,25 @@
 <bz-layout>
     <!-- Header -->
-    <bz-header>
-       <app-header></app-header>
-    </bz-header>
+    <bz-layout-header fixed>
+        <app-header></app-header>
+    </bz-layout-header>
     <!-- Sidebar-left -->
     <bz-sidebar-left>
         <app-sidebar-left></app-sidebar-left>
     </bz-sidebar-left>
+    <bz-layout-content>
+        <!-- Content -->
+        <bz-layout-column>
+            <ng-content></ng-content>
+        </bz-layout-column>
+        <!-- footer -->
+        <bz-layout-footer>
+            <app-footer></app-footer>
+        </bz-layout-footer>
+    </bz-layout-content>
     <!-- Sidebar right -->
+    <bz-button-toogle></bz-button-toogle>
     <bz-sidebar-right>
         <app-sidebar-right></app-sidebar-right>
     </bz-sidebar-right>
-    <!-- Content -->
-    <bz-content>
-        <ng-content></ng-content>
-    </bz-content>
-    <!--Footer-->
-    <bz-footer>
-       <app-footer></app-footer>
-    </bz-footer>
 </bz-layout>

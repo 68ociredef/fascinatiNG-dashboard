@@ -1,4 +1,4 @@
-# FascinatiNG Dashboard
+# FascinatingDashboard
 
-Angular simple dashboard realized using FascinatiNG library.
+A simple Angular dashboard realized with FascinatiNG library.
 

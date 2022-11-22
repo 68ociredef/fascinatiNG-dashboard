@@ -11,7 +11,7 @@ export class HeaderComponent  {
 constructor( private layoutService: BzLayoutService) {}
 
 public toggleSidebar() : void {
-   this.layoutService.toggleMenuSidebar();
+   this.layoutService.setToggleMenu();
 }
 
 }
